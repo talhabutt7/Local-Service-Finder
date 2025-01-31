@@ -65,3 +65,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem 'activerecord-postgis-adapter'
+gem 'geocoder' # For address-to-coordinate conversion
